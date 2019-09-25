@@ -9,3 +9,6 @@ _Projects, playgrounds, and other materials made while following along with the 
     - Decoding a JSON payload into a model object and then encoding that model object back into JSON.
     - Trying out these maneuvers in different array formations.
     - Handling errors and edge cases. 
+
+- [Chapter 2: Holding Patterns](./02-holding-patterns)
+    - Creating `Codable` types capable of interfacing with complex JSON.

@@ -1,0 +1,13 @@
+{
+    "aircraft": {
+        "identification": "NA12345",
+        "color": "Blue/White"
+    },
+    "route": ["KTTD", "KHIO"],
+    "flight_rules": "VFR",
+    "departure_time": {
+        "proposed": "2018-04-20T14:15:00-07:00",
+        "actual": "2018-04-20T14:20:00-07:00"
+    },
+    "remarks": null
+}
