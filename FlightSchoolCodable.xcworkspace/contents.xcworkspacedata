@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:03-taking-the-controls/Chapter03">
+   </FileRef>
+   <FileRef
       location = "group:02-holding-patterns/Chapter02">
    </FileRef>
    <FileRef

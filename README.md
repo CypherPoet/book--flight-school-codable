@@ -12,3 +12,6 @@ _Projects, playgrounds, and other materials made while following along with the 
 
 - [Chapter 2: Holding Patterns](./02-holding-patterns)
     - Creating `Codable` types capable of interfacing with complex JSON.
+
+- [Chapter 3: Taking the Controls](./03-taking-the-controls)
+    - Implementing `Codable` manually.
