@@ -1,0 +1,13 @@
+// American
+// (prices in USD/gallon)
+
+[
+    {
+        "fuel": "100LL",
+        "price": 5.6
+    },
+    {
+        "fuel": "Jet A",
+        "price": 4.1
+    }
+]

@@ -1,0 +1,11 @@
+{
+  "points": ["KSQL", "KWVI"],
+  "KSQL": {
+    "code": "KSQL",
+    "name": "San Carlos Airport"
+  },
+  "KWVI": {
+    "code": "KWVI",
+    "name": "Watsonville Municipal Airport"
+  }
+}

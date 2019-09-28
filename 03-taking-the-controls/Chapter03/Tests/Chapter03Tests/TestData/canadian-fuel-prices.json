@@ -1,0 +1,19 @@
+// Canadian
+// (prices in CAD/liter)
+
+{
+  "fuels": [
+    {
+      "type": "100LL",
+      "price": 2.54
+    },
+    {
+      "type": "Jet A",
+      "price": 3.14
+    },
+    {
+      "type": "Jet B",
+      "price": 3.03
+    }
+  ]
+}
