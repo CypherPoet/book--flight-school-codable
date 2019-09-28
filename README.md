@@ -14,4 +14,4 @@ _Projects, playgrounds, and other materials made while following along with the 
     - Creating `Codable` types capable of interfacing with complex JSON.
 
 - [Chapter 3: Taking the Controls](./03-taking-the-controls)
-    - Implementing `Codable` manually.
+    - Various approaches to implementing `Codable` manually.
