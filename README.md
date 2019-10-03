@@ -15,3 +15,5 @@ _Projects, playgrounds, and other materials made while following along with the 
 
 - [Chapter 3: Taking the Controls](./03-taking-the-controls)
     - Various approaches to implementing `Codable` manually.
+
+- [Chapter 4: Building a Music Store App with the iTunes Search API](./04-music-store-app)

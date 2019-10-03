@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CypherPoetCore",
+        "repositoryURL": "https://github.com/CypherPoet/CypherPoetCore.git",
+        "state": {
+          "branch": null,
+          "revision": "38e32f372eb252ac88705784e4284cf5a544b45e",
+          "version": "0.0.9"
+        }
+      },
+      {
+        "package": "NetStack",
+        "repositoryURL": "https://github.com/CypherPoet/NetStack.git",
+        "state": {
+          "branch": null,
+          "revision": "5d8e99ccc85b407bab39f133b008a39fb6d8ba18",
+          "version": "0.0.7"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
