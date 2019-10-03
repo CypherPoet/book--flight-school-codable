@@ -6,19 +6,6 @@ import CypherPoetCore
 
 final class SearchResultTransportPublisherTests: XCTestCase {
 
-    enum FileURL {
-        static let testDataDirectory = URL(fileURLWithPath: #file)
-            .deletingPathExtension()
-            .deletingLastPathComponent()
-            .appendingPathComponent("TestData", isDirectory: true)
-     
-        static let massEffectSearchResults = Self
-            .testDataDirectory
-            .appendingPathComponent("APIResponses", isDirectory: true)
-            .appendingPathComponent("media-software-term-mass-effect", isDirectory: false)
-            .appendingPathExtension("json")
-    }
-    
     enum APIURL {
         static let mediaSoftwareTermMassEffect = URL(string: "https://itunes.apple.com/search?term=MassEffect&media=software&limit=5")!
     }
