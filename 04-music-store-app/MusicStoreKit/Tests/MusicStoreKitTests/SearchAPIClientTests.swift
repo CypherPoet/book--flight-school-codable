@@ -4,7 +4,7 @@ import CypherPoetCore
 
 @testable import MusicStoreKit
 
-final class SearchResultTransportPublisherTests: XCTestCase {
+final class SearchAPIClientTests: XCTestCase {
 
     enum APIURL {
         static let mediaSoftwareTermMassEffect = URL(string: "https://itunes.apple.com/search?term=MassEffect&media=software&limit=5")!
@@ -12,7 +12,7 @@ final class SearchResultTransportPublisherTests: XCTestCase {
 }
 
 
-extension SearchResultTransportPublisherTests {
+extension SearchAPIClientTests {
     
     func testPerformingRequest() {
         let expectation = XCTestExpectation(description: "Publisher should complete")
