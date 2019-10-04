@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:04-music-store-app/MusicStore/MusicStore.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:04-music-store-app/MusicStoreKit">
    </FileRef>
    <FileRef
