@@ -11,12 +11,12 @@ import CypherPoetCore
 
 extension Endpoint {
     
-    static func iTunesSearchAPI() -> Endpoint {
-        Endpoint(host: "itunes.apple.com", path: "search")
+    public static func iTunesSearchAPI() -> Endpoint {
+        Endpoint(host: "itunes.apple.com", path: "/search")
     }
     
     
-    static func endpoint(
+    public static func iTunesSearchAPI(
         matching term: String,
         locale: Locale = Locale.current,
         entity: String? = nil,
@@ -31,7 +31,7 @@ extension Endpoint {
         endpoint.queryItems = [
             URLQueryItem(name: "\(QueryParam.term)", value: term),
             URLQueryItem(name: "\(QueryParam.limit)", value: "\(limit ?? .max)"),
-            URLQueryItem(name: "\(QueryParam.version)", value: "\(version ?? .two)"),
+            URLQueryItem(name: "\(QueryParam.version)", value: version?.urlValue ?? SearchAPIVersion.two.urlValue),
             URLQueryItem(name: "\(QueryParam.explicit)", value: explicit ? "YES" : "NO"),
         ]
         

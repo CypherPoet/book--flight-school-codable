@@ -2,7 +2,7 @@ import Foundation
 
 
 public struct SearchResponse {
-    let results: [SearchResult]
+    public let results: [SearchResult]
 }
 extension SearchResponse: Decodable {}
 

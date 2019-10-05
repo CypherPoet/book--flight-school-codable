@@ -1,7 +1,7 @@
 import Foundation
 
 
-enum Explicitness: String {
+public enum Explicitness: String {
     
     /// Explicit lyrics, possibly explicit album cover
     case explicit
