@@ -17,3 +17,7 @@ _Projects, playgrounds, and other materials made while following along with the 
     - Various approaches to implementing `Codable` manually.
 
 - [Chapter 4: Building a Music Store App with the iTunes Search API](./04-music-store-app)
+
+- [Chapter 5: Building an In-Flight Service App with User Defaults](./05-flight-service-app)
+    - Persisting data locally with `UserDefaults`.
+    - Loading "inventory" data from local propery lists.

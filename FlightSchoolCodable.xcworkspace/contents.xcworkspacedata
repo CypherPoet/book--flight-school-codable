@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:05-flight-service-app/FlightService/FlightService.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05-flight-service-app/FlightServiceAppKit">
+   </FileRef>
+   <FileRef
       location = "group:04-music-store-app/MusicStore/MusicStore.xcodeproj">
    </FileRef>
    <FileRef

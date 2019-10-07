@@ -21,8 +21,9 @@ struct SearchView: View {
         
         VStack {
             VStack {
-                Text("Searching for: \(currentTerm)")
+                Text("Searching iTunes for: \"\(currentTerm)\"")
                     .font(.headline)
+                    .lineLimit(nil)
                 
                 TextField("Enter a Search Term", text: $currentTerm, onCommit: onSearchCommit)
                     .padding()

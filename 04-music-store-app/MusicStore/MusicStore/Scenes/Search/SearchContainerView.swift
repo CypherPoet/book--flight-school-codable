@@ -1,11 +1,3 @@
-//
-//  ContentView.swift
-//  MusicStore
-//
-//  Created by Brian Sipple on 10/4/19.
-//  Copyright © 2019 CypherPoet. All rights reserved.
-//
-
 import SwiftUI
 import MusicStoreKit
 import CypherPoetCore
@@ -31,6 +23,8 @@ struct SearchContainerView: View {
     }
 }
 
+
+#if DEBUG
 struct SearchContainerView_Previews: PreviewProvider {
     static var previews: some View {
         let appStore = Store<AppState, AppStateAction>(
@@ -42,3 +36,4 @@ struct SearchContainerView_Previews: PreviewProvider {
             .environmentObject(appStore)
     }
 }
+#endif

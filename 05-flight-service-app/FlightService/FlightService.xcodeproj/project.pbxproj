@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F311E96A234BF45C0064E5D4 /* CypherPoetCore in Frameworks */ = {isa = PBXBuildFile; productRef = F311E969234BF45C0064E5D4 /* CypherPoetCore */; };
+		F3B43CA0234A84A700BD2648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43C9F234A84A700BD2648 /* AppDelegate.swift */; };
+		F3B43CA2234A84A800BD2648 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43CA1234A84A700BD2648 /* SceneDelegate.swift */; };
+		F3B43CA4234A84A800BD2648 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43CA3234A84A800BD2648 /* ContentView.swift */; };
+		F3B43CA6234A84A900BD2648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B43CA5234A84A900BD2648 /* Assets.xcassets */; };
+		F3B43CA9234A84A900BD2648 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B43CA8234A84A900BD2648 /* Preview Assets.xcassets */; };
+		F3B43CAC234A84A900BD2648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B43CAA234A84A900BD2648 /* LaunchScreen.storyboard */; };
+		F3B43CB5234A84C000BD2648 /* FlightServiceAppKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3B43CB4234A84C000BD2648 /* FlightServiceAppKit */; };
+		F3B43CB9234A864E00BD2648 /* Inventory.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3B43CB8234A864E00BD2648 /* Inventory.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3B43C9C234A84A700BD2648 /* FlightService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B43C9F234A84A700BD2648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3B43CA1234A84A700BD2648 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3B43CA3234A84A800BD2648 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3B43CA5234A84A900BD2648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B43CA8234A84A900BD2648 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3B43CAB234A84A900BD2648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3B43CAD234A84A900BD2648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B43CB8234A864E00BD2648 /* Inventory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Inventory.plist; path = ../../../FlightServiceAppKit/Resources/Inventory.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B43C99234A84A700BD2648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F311E96A234BF45C0064E5D4 /* CypherPoetCore in Frameworks */,
+				F3B43CB5234A84C000BD2648 /* FlightServiceAppKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B43C93234A84A700BD2648 = {
+			isa = PBXGroup;
+			children = (
+				F3B43C9E234A84A700BD2648 /* FlightService */,
+				F3B43C9D234A84A700BD2648 /* Products */,
+				F3B43CB3234A84C000BD2648 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B43C9D234A84A700BD2648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43C9C234A84A700BD2648 /* FlightService.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B43C9E234A84A700BD2648 /* FlightService */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43CB7234A85BE00BD2648 /* Resources */,
+				F3B43C9F234A84A700BD2648 /* AppDelegate.swift */,
+				F3B43CA1234A84A700BD2648 /* SceneDelegate.swift */,
+				F3B43CA3234A84A800BD2648 /* ContentView.swift */,
+				F3B43CAA234A84A900BD2648 /* LaunchScreen.storyboard */,
+				F3B43CAD234A84A900BD2648 /* Info.plist */,
+				F3B43CA7234A84A900BD2648 /* Preview Content */,
+			);
+			path = FlightService;
+			sourceTree = "<group>";
+		};
+		F3B43CA7234A84A900BD2648 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43CA8234A84A900BD2648 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3B43CB3234A84C000BD2648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B43CB7234A85BE00BD2648 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43CB8234A864E00BD2648 /* Inventory.plist */,
+				F3B43CA5234A84A900BD2648 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B43C9B234A84A700BD2648 /* FlightService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B43CB0234A84A900BD2648 /* Build configuration list for PBXNativeTarget "FlightService" */;
+			buildPhases = (
+				F3B43C98234A84A700BD2648 /* Sources */,
+				F3B43C99234A84A700BD2648 /* Frameworks */,
+				F3B43C9A234A84A700BD2648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightService;
+			packageProductDependencies = (
+				F3B43CB4234A84C000BD2648 /* FlightServiceAppKit */,
+				F311E969234BF45C0064E5D4 /* CypherPoetCore */,
+			);
+			productName = FlightService;
+			productReference = F3B43C9C234A84A700BD2648 /* FlightService.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B43C94234A84A700BD2648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = CypherPoet;
+				TargetAttributes = {
+					F3B43C9B234A84A700BD2648 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = F3B43C97234A84A700BD2648 /* Build configuration list for PBXProject "FlightService" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B43C93234A84A700BD2648;
+			packageReferences = (
+				F311E968234BF45C0064E5D4 /* XCRemoteSwiftPackageReference "CypherPoetCore" */,
+			);
+			productRefGroup = F3B43C9D234A84A700BD2648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B43C9B234A84A700BD2648 /* FlightService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B43C9A234A84A700BD2648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B43CAC234A84A900BD2648 /* LaunchScreen.storyboard in Resources */,
+				F3B43CA9234A84A900BD2648 /* Preview Assets.xcassets in Resources */,
+				F3B43CA6234A84A900BD2648 /* Assets.xcassets in Resources */,
+				F3B43CB9234A864E00BD2648 /* Inventory.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B43C98234A84A700BD2648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B43CA0234A84A700BD2648 /* AppDelegate.swift in Sources */,
+				F3B43CA2234A84A800BD2648 /* SceneDelegate.swift in Sources */,
+				F3B43CA4234A84A800BD2648 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3B43CAA234A84A900BD2648 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B43CAB234A84A900BD2648 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B43CAE234A84A900BD2648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3B43CAF234A84A900BD2648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B43CB1234A84A900BD2648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FlightService/Preview Content\"";
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FlightService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cypherpoet.FlightService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3B43CB2234A84A900BD2648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FlightService/Preview Content\"";
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FlightService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cypherpoet.FlightService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B43C97234A84A700BD2648 /* Build configuration list for PBXProject "FlightService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B43CAE234A84A900BD2648 /* Debug */,
+				F3B43CAF234A84A900BD2648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B43CB0234A84A900BD2648 /* Build configuration list for PBXNativeTarget "FlightService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B43CB1234A84A900BD2648 /* Debug */,
+				F3B43CB2234A84A900BD2648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F311E968234BF45C0064E5D4 /* XCRemoteSwiftPackageReference "CypherPoetCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/CypherPoetCore.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.12;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F311E969234BF45C0064E5D4 /* CypherPoetCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F311E968234BF45C0064E5D4 /* XCRemoteSwiftPackageReference "CypherPoetCore" */;
+			productName = CypherPoetCore;
+		};
+		F3B43CB4234A84C000BD2648 /* FlightServiceAppKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FlightServiceAppKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F3B43C94234A84A700BD2648 /* Project object */;
+}
